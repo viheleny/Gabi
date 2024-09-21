@@ -1,0 +1,29 @@
+ body{
+    background-color:rgb(245, 76, 14);
+    color:black;
+    font-family: "Nerko One", Static;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 700px;
+    margin: 5;
+ }
+
+ button{
+    background-color:#ff3300;
+    color: black;
+    font-family: "Nerko One", Static;
+ }
+ .passo {
+   display: none;
+}
+.passo.ativo {
+   display:block;
+}
+main {
+   text-align: left;
+   max-width: 90%;
+}
+img {
+   max-width:  300%;
+}
